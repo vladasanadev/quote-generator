@@ -1,21 +1,8 @@
 h1 {
+  color: #45d0d0;
   font-family: "Rubik Mono One", monospace;
   font-size: 60px;
   text-align: center;
-}
-.animated-gradient {
-  background-image: -webkit-linear-gradient(125deg, #f2291b, #f7db25, #84f527);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 15s infinite linear;
-}
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
 }
 input {
   font-family: monospace;
@@ -25,7 +12,7 @@ input {
   font-family: monospace;
 }
 .text {
-  color: #05094f;
+  color: #000;
   font-size: 20px;
   font-family: "DotGothic16", sans-serif;
 }
@@ -34,7 +21,7 @@ footer {
   text-align: center;
 }
 a {
-  color: blue;
+  color: #45d0d0;
 }
 a:hover {
   cursor: pointer;
