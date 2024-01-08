@@ -1,10 +1,18 @@
+body {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
 h1 {
-  color: #45d0d0;
+  color: #0d3280;
   font-family: "Rubik Mono One", monospace;
   font-size: 60px;
   text-align: center;
 }
-input {
+img {
+  display: inline;
+  width: 100px;
+}
+.submit {
+  background-color: #fbd158;
   font-family: monospace;
 }
 .hint {
@@ -13,17 +21,18 @@ input {
 }
 .text {
   color: #000;
-  font-size: 20px;
-  font-family: "DotGothic16", sans-serif;
+  font-size: 24px;
+  font-family: "Roboto Mono", monospace;
 }
 footer {
+  color: #0d3280;
   font-family: monospace;
   text-align: center;
 }
 a {
-  color: #45d0d0;
+  color: #7b73f4;
 }
 a:hover {
   cursor: pointer;
-  font-style: italic;
+  color: #bfa2ee;
 }
