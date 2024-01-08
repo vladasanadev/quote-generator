@@ -2,12 +2,15 @@ h1 {
   font-family: "Rubik Mono One", monospace;
   text-align: center;
 }
-p {
-  font-size: 24px;
-  font-family: "DotGothic16", sans-serif;
+input {
+  font-family: monospace;
 }
 .hint {
   font-family: monospace;
+}
+.text {
+  font-size: 20px;
+  font-family: "DotGothic16", sans-serif;
 }
 footer {
   font-family: monospace;

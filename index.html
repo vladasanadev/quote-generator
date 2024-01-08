@@ -14,9 +14,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>AI Fact Finder</h1>
-      <p>Enter topic...</p>
-      <div class="hint">Example: Amsterdam, beetroots, cats</div>
+      <header>
+        <h1>AI Fact Finder</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic..."
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" />
+        </form>
+        <div class="hint">Example: Amsterdam, beetroots, cats</div>
+        <div class="text">The AI generated fact about the selected topic.</div>
+      </main>
       <br />
       <footer>
         This AI project was coded by
