@@ -16,25 +16,23 @@
     <div class="container">
       <header>
         <h1 class="animated-gradient">AI Fact Finder</h1>
+        <h2>Fuel your knowledge</h2>
       </header>
       <main>
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/749/original/chatbot-2.gif?1704736750"
-        />
         <form>
           <input
             type="text"
-            placeholder="Enter a topic..."
+            placeholder="Enter a topic of interest..."
             autofocus
             required
             autocomplete="off"
+            class="prompt"
           />
-          <input class="submit" type="submit" />
+          <input class="submit-button" type="submit" />
         </form>
         <div class="hint">Example: Amsterdam, beetroots, cats</div>
-        <div class="text">The AI generated fact about the selected topic.</div>
+        <div class="fact">The AI generated fact about the selected topic.</div>
       </main>
-      <br />
       <footer>
         This AI project was coded by
         <a

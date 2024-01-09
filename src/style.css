@@ -1,33 +1,81 @@
 body {
-  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-color: #03001e;
+}
+.container {
+  background: rgba(72, 53, 90, 0.39);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px 50px;
 }
 h1 {
-  color: #0d3280;
+  color: #ffff;
   font-family: "Rubik Mono One", monospace;
-  font-size: 60px;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px auto;
+}
+h2 {
+  color: #a7a7a7;
+  font-size: 18px;
+  font-family: monospace;
   text-align: center;
 }
-img {
-  display: inline;
-  width: 100px;
+main {
+  margin-bottom: 40px;
 }
-.submit {
-  background-color: #fbd158;
+form {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+.prompt {
+  color: #757575;
+  font-size: 16px;
   font-family: monospace;
+  border: 1px solid #03001e;
+  border-radius: 30px;
+  padding: 12px;
+  width: 80%;
+}
+.submit-button {
+  color: #03001e;
+  background-color: #fbd158;
+  font-size: 16px;
+  font-family: monospace;
+  padding: 14px 24px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 30px;
+}
+.submit-button:hover {
+  background-color: #f8c41f;
 }
 .hint {
-  color: #757575;
+  color: #a7a7a7;
+  font-size: 12px;
   font-family: monospace;
+  margin-bottom: 20px;
 }
-.text {
-  color: #000;
-  font-size: 24px;
+.fact {
+  color: #ffff;
+  background-color: #03001e;
+  font-size: 20px;
   font-family: "Roboto Mono", monospace;
+  line-height: 2;
+  border-left: 3px solid #fbd158;
+  padding: 20px;
 }
 footer {
-  color: #0d3280;
+  color: #ffff;
+  font-size: 14px;
   font-family: monospace;
   text-align: center;
+  line-height: 1.5;
 }
 a {
   color: #7b73f4;
