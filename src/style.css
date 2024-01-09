@@ -27,6 +27,7 @@ h1 {
     rgb(238, 169, 161)
   );
   background-size: 400%;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animatedGradient 9s ease infinite;
