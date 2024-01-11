@@ -25,7 +25,7 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animatedGradient 9s ease infinite;
+  animation: animatedGradient 14s ease infinite;
 }
 @keyframes animatedGradient {
   0% {
@@ -105,5 +105,5 @@ a {
 }
 a:hover {
   cursor: pointer;
-  color: #f83378;
+  color: #ff6564;
 }
