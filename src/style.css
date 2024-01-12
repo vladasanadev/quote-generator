@@ -52,10 +52,11 @@ form {
   padding: 20px 10px;
   border-radius: 10px;
 }
-.feed {
+.topic {
   color: #757575;
   font-size: 16px;
-  font-family: monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   border: 1px solid #352d4a;
   border-radius: 10px;
@@ -66,7 +67,8 @@ form {
   color: #03001e;
   background-color: #ff8264;
   font-size: 16px;
-  font-family: monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 14px 24px;
   margin-left: 12px;
   border: none;
@@ -84,7 +86,7 @@ form {
 .fact {
   color: #ffff;
   background-color: #03001e;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Roboto Mono", monospace;
   line-height: 2;
   border-left: 3px solid #ff8264;
@@ -92,13 +94,10 @@ form {
 }
 footer {
   color: #615386;
-  font-size: 14px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-family: monospace;
   text-align: center;
   line-height: 1.5;
-  padding-top: 14px;
-  border-top: 1px solid #352d4a;
 }
 a {
   color: #ff8264;
