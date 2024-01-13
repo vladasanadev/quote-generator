@@ -55,7 +55,8 @@ form {
 .topic {
   color: #757575;
   font-size: 16px;
-  font-family: monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   border: 1px solid #352d4a;
   border-radius: 10px;
@@ -65,7 +66,8 @@ form {
 .submit-button {
   color: #03001e;
   font-size: 16px;
-  font-family: monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 14px 24px;
   margin-left: 12px;
   background-image: linear-gradient(135deg, #feb692, #ff8264, #ff6564);
@@ -95,8 +97,19 @@ form {
   font-size: 16px;
   font-family: "Roboto Mono", monospace;
   line-height: 2;
-  border-left: 3px solid #f40968;
+  border-left: 3px solid #ff8264;
   padding: 20px;
+}
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blink 2s step-start 0s infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
 footer {
   color: #615386;
@@ -105,6 +118,8 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
   line-height: 1.5;
+  padding-top: 10px;
+  border-top: 0.5px solid #03001e;
 }
 a {
   color: #ff8264;
