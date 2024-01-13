@@ -55,8 +55,7 @@ form {
 .topic {
   color: #757575;
   font-size: 16px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Comfortaa", sans-serif;
   line-height: 1.5;
   border: 1px solid #352d4a;
   border-radius: 10px;
@@ -66,8 +65,7 @@ form {
 .submit-button {
   color: #03001e;
   font-size: 16px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Comfortaa", sans-serif;
   padding: 14px 24px;
   margin-left: 12px;
   background-image: linear-gradient(135deg, #feb692, #ff8264, #ff6564);
@@ -119,9 +117,8 @@ form {
 }
 footer {
   color: #615386;
-  font-size: 14px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-family: "Comfortaa", sans-serif;
   text-align: center;
   line-height: 1.5;
   padding-top: 10px;
