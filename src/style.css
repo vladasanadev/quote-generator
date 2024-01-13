@@ -104,11 +104,17 @@ form {
   display: none;
 }
 .blink {
-  animation: blink 2s step-start 0s infinite;
+  animation: blink-animation 1s steps(5, start) infinite;
 }
-@keyframes blink {
-  50% {
-    opacity: 0;
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
 }
 footer {
