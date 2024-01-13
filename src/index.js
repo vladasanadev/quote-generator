@@ -1,5 +1,4 @@
 function displayFact(response) {
-  console.log("fact generated");
   new Typewriter("#fact", {
     strings: response.data.answer,
     autoStart: true,
@@ -21,10 +20,6 @@ function generateFact(event) {
   let factElement = document.querySelector("#fact");
   factElement.classList.remove("hidden");
   factElement.innerHTML = `<div class = "blink">Finding a fact about ${topicInput.value} for you</div>`;
-
-  console.log("Finding fact");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
 
   axios.get(apiURL).then(displayFact);
 }
