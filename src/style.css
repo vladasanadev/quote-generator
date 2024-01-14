@@ -14,7 +14,7 @@ body {
 }
 h1 {
   font-family: "Outfit", sans-serif;
-  font-size: 60px;
+  font-size: 62px;
   letter-spacing: 0.2cm;
   text-align: center;
   margin: 10px auto;
@@ -69,7 +69,7 @@ form {
   font-family: "Comfortaa", sans-serif;
   padding: 14px 24px;
   margin-left: 12px;
-  background-image: linear-gradient(135deg, #feb692, #ff8264, #ff6564, #e8514c);
+  background-image: linear-gradient(135deg, #feb692, #ff8264, #ff6564);
   border-radius: 10px;
   border: none;
   outline: none;
@@ -86,8 +86,8 @@ form {
 }
 .hint {
   color: #615386;
-  font-size: 11px;
-  font-family: monospace;
+  font-size: 12px;
+  font-family: "Comfortaa", sans-serif;
   margin-bottom: 20px;
 }
 .fact {
@@ -131,5 +131,5 @@ a {
 }
 a:hover {
   cursor: pointer;
-  color: #ff6564;
+  color: #e8514c;
 }
